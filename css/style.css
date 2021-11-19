@@ -9,7 +9,6 @@
 }
 #bloc-page {
     width: max-content;
-    width: auto !important;
 }
 body {
     font-family: Roboto, sans-serif;
