@@ -8,9 +8,8 @@
     --vert: #99E2D0;
 }
 #bloc-page {
-    min-width:1000px;
-    width: auto !important; 
-    width:1000px;
+    width: max-content;
+    width: auto !important;
 }
 body {
     font-family: Roboto, sans-serif;
