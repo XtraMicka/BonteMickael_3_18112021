@@ -6,10 +6,11 @@
     --violet: #9356DC;
     --rose: #FF79DA;
     --vert: #99E2D0;
-    min-width: fit-content;
 }
 #bloc-page {
-    min-width: fit-content;
+    min-width:1000px;
+    width: auto !important; 
+    width:1000px;
 }
 body {
     font-family: Roboto, sans-serif;
