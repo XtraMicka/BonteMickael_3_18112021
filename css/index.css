@@ -1,0 +1,186 @@
+/* Partie Explore */
+.explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0 50px 0;
+}
+.explore h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0 15%;
+    margin-bottom: 10px;
+}
+.explore p {
+    text-align: center;
+    font-size: 35px;
+    padding: 0 7%;
+    margin-top: 10px;
+}
+.explore a {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.explore .input {
+    cursor: pointer;
+    border-style: none;
+    height: 100px;
+    width: 440px;
+    font-size: 32px;
+    color: white;
+    border-radius: 200px;
+    background-image: linear-gradient(350deg, var(--violet), var(--rose));
+    box-shadow: 0 10px 15px #6161613d;
+}
+
+/* Partie Fonction */
+.fonction {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+.fonction {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.fonction h2 {
+    font-size: 45px
+}
+.fonction .mini {
+    display: flex;
+    align-items: baseline;
+    font-size: 34px;
+}
+.fonction .menu {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    width: 100%;
+    height: 150px;
+    margin: 0 0 40px 25px;
+    box-shadow: 0 10px 15px #6161613d;
+}
+.fonction .menu:hover {
+    background-color: rgb(243, 235, 254);
+}
+.fonction .number {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color: var(--violet);
+    border-radius: 100%;
+    font-size: 30px;
+}
+.fonction i {
+    color: rgb(126, 126, 126);
+    margin: 0 30px 0 10px;
+}
+.fonction i:hover {
+    color: var(--violet);
+}
+.fonction p {
+    font-weight: 600;
+    margin-left: 130px;
+}
+.mini .fas {
+    display: flex;
+    padding: 60px 100% 60px 50px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Partie Restaurants */
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 40px 25px 70px 25px;
+}
+.restaurants h2 {
+    font-size: 50px;
+}
+.restaurants .brand p {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(27, 132, 101);
+    font-size: 28px;
+    background-color: rgb(147, 224, 203);
+    margin: 30px 0 0 0;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    box-shadow: 0 10px 15px #6161613d;
+    border-radius: 30px;
+    margin: 20px 0 20px;
+}
+.card .link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-decoration: inherit;
+    color: inherit;
+}
+.card img {
+    height: 72%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card .infos {
+    display: flex;
+    flex-direction: column;
+}
+.infos h3 {
+    font-size: 34px;
+    margin: 25px 0 0 25px;
+}
+.infos p {
+    margin: 10px 0 0 25px;
+    font-size: 31px;
+}
+.infos .fas {
+    display: flex;
+    align-self: flex-end;
+    font-size: 55px;
+    color: white;
+}
+.infos i {
+    margin: 35px 50px 0 0;
+    position: absolute;
+    text-shadow: 0 0 3px black;
+}
+.infos i:hover {
+    color: var(--violet);
+    cursor: pointer;
+    transition: color 0.3s linear;
+}
+.infos i:not(:hover) {
+    color:white;
+    transition: color 0.3s linear;
+}
+.brand {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.heart {
+    display: flex;
+}
