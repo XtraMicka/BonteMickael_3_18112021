@@ -38,7 +38,7 @@
     flex-direction: row;
     align-items: flex-end;
     background-image: url(../images/restaurants/carte3.jpg);
-    background-size: contain;
+    background-size: cover;
     height: 600px;
     width: 100%;
 }
@@ -84,3 +84,75 @@
 .menu {
     background-color: rgb(245, 245, 245);
 }
+.menu h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 30px 0 0 20px;
+}
+.menu .border {
+    margin: 5px 0 25px 20px;
+    width: 70px;
+    height: 3px;
+    color: var(--vert);
+    border-bottom: 5px solid var(--vert);
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.miam {
+    display: flex;
+    padding: 0 0 0 20px;
+    background-color: white;
+    box-shadow: 0 10px 15px #6161613d;
+    border-radius: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.miam .gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.miam .droite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: white;
+    background-color: var(--vert);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.miam h3 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+}
+.miam p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.miam span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* Animations */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+.m1 {
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,-0.03, 0.23, 1.23);
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+/* Order */
