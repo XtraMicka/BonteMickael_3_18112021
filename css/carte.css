@@ -164,7 +164,7 @@
     cursor: pointer;
     border-style: none;
     height: 100px;
-    width: 440px;
+    width: auto;
     font-size: 32px;
     color: white;
     border-radius: 200px;
