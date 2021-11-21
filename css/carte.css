@@ -107,6 +107,7 @@
     flex-direction: column;
     padding: 0 10px;
     font-size: 25px;
+    overflow: hidden;
 }
 .miam {
     display: flex;
@@ -122,32 +123,43 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .miam .droite {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80px;
     height: 75px;
     font-size: 25px;
     color: white;
     background-color: var(--vert);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    opacity: 0%;
 }
 .miam h3 {
     font-size: 18px;
     margin: 0 0 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .miam p {
     margin: 0;
-    display: flex;
     justify-content: space-between;
     font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.miam span {
+.miam .prix {
+    display: flex;
     font-weight: bold;
     margin-right: 15px;
+    align-items: flex-end;
+    font-size: 15px;
+    margin-bottom: 14px;
+    margin-left: 15px;
 }
 
 /* Order */

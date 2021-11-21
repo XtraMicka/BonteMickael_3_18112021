@@ -1,0 +1,38 @@
+/* * * * * * * * * * * * */
+/* * * Animation * * */
+/* * * * * * * * * * * * */
+
+/* Loader */
+
+/* Appartion des menus */
+@keyframes fadin {
+    0% {opacity: 0%}
+    65% {opacity: 0%}
+    100% {opacity: 100%}
+}
+.m1 {
+    animation: fadin 0.4s ease-in;
+} 
+.m2 {
+    animation: fadin 0.8s ease-in;
+}
+.m3 {
+    animation: fadin 1.2s ease-in;
+}
+/* coche à droite des menus */
+.miam:hover .droite {
+    transition: .3s ease-in-out;
+    width: 100px;
+    opacity: 100%;
+}
+.miam:not(:hover) .droite {
+    transition: .3s ease-in-out;
+    width: 0;
+    opacity: 0%;
+}
+
+/* Bouttons plus foncé et ombre */
+.explore .input:hover, .order .input:hover {
+    background-image: linear-gradient(350deg, #8750ca, #d864b7);
+    box-shadow: 0 10px 15px #61616170;
+}
