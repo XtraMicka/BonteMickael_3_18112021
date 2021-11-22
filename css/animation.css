@@ -19,6 +19,7 @@
 .m3 {
     animation: fadin 1.2s ease-in;
 }
+
 /* coche à droite des menus */
 .miam:hover .droite {
     transition: .3s ease-in-out;
@@ -33,6 +34,6 @@
 
 /* Bouttons plus foncé et ombre */
 .explore .input:hover, .order .input:hover {
-    background-image: linear-gradient(350deg, #8750ca, #d864b7);
+    background-image: linear-gradient(350deg, #aa65ff, #ff79d9);
     box-shadow: 0 10px 15px #61616170;
 }

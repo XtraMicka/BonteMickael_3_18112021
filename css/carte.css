@@ -183,3 +183,16 @@
     background-image: linear-gradient(350deg, var(--violet), var(--rose));
     box-shadow: 0 7px 5px #6161613d;
 }
+
+/* Version PC */
+@media screen and (min-width: 992px) {
+    .menu_ligne_1, .menu_ligne_2, .menu_ligne_3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .miam {
+        flex: 1;
+        margin: 0 10px 20px 10px;
+        min-width: 75px;
+    }
+}

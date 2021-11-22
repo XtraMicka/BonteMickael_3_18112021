@@ -36,88 +36,94 @@
                 <div class="explore">
                     <h1>Réservez le menu qui vous convient</h1>
                     <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                    <button class="input"><a class="explore-link" href="#exploration">Explorer nos restaurants</a></button>
+                    <form action="#exploration" method="get">
+                        <button class="input">Explorer nos restaurants</button>
+                    </form>
                 </div>
 
                 <div class="fonction">
                     <h2>Fonctionnement</h2>
-                    <div class="mini">
-                        <div class="number">
-                            <span>1</span>
+                        <div class="explains">
+                            <div class="mini">
+                                <div class="number">
+                                    <span>1</span>
+                                </div>
+                                <div class="menu">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <p>Choisissez un restaurant</p>
+                                </div>
+                            </div>
+                            <div class="mini">
+                                <div class="number">
+                                    <span>2</span>
+                                </div>
+                                <div class="menu">
+                                    <i class="fas fa-list-ul"></i>
+                                    <p>Composez votre menu</p>
+                                </div>
+                            </div>
+                            <div class="mini">
+                                <div class="number">
+                                    <span>3</span>
+                                </div>
+                                <div class="menu">
+                                    <i class="fas fa-store"></i>
+                                    <p>Dégustez au restaurant</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="menu">
-                            <i class="fas fa-mobile-alt"></i>
-                            <p>Choisissez un restaurant</p>
-                        </div>
-                    </div>
-                    <div class="mini">
-                        <div class="number">
-                            <span>2</span>
-                        </div>
-                        <div class="menu">
-                            <i class="fas fa-list-ul"></i>
-                            <p>Composez votre menu</p>
-                        </div>
-                    </div>
-                    <div class="mini">
-                        <div class="number">
-                            <span>3</span>
-                        </div>
-                        <div class="menu">
-                            <i class="fas fa-store"></i>
-                            <p>Dégustez au restaurant</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div id="exploration" class="restaurants">
                     <h2>Restaurants</h2>
-                    <div class="card">
-                        <a class="link" href="pages/la-palette-du-gout.html">
-                            <div class="brand">
-                                <p>Nouveau</p>
+                        <div class="menus">
+                            <div class="card">
+                                <a class="link" href="pages/la-palette-du-gout.html">
+                                    <div class="brand">
+                                        <p>Nouveau</p>
+                                    </div>
+                                    <img class="img" src="images/restaurants/carte1.jpg" alt="première carte">
+                                    <div class="infos">
+                                        <h3>La palette du goût</h3>
+                                        <p>Ménilmontant</p>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </a>
                             </div>
-                            <img class="img" src="images/restaurants/carte1.jpg" alt="première carte">
-                            <div class="infos">
-                                <h3>La palette du goût</h3>
-                                <p>Ménilmontant</p>
-                                <i class="fas fa-heart"></i>
+                            <div class="card">
+                                <a class="link" href="pages/la-note-enchantee.html">
+                                    <div class="brand">
+                                        <p>Nouveau</p>
+                                    </div>
+                                    <img class="img" src="images/restaurants/carte2.jpg" alt="deuxième carte">
+                                    <div class="infos">
+                                        <h3>La note enchantée</h3>
+                                        <p>Charonne</p>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a class="link" href="pages/la-note-enchantee.html">
-                            <div class="brand">
-                                <p>Nouveau</p>
+                            <div class="card">
+                                <a class="link" href="pages/a-la-francaise.html">
+                                    <img class="img" src="images/restaurants/carte3.jpg" alt="troisième carte">
+                                    <div class="infos">
+                                        <h3>À la française</h3>
+                                        <p>Cité Rouge</p>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </a>
                             </div>
-                            <img class="img" src="images/restaurants/carte2.jpg" alt="deuxième carte">
-                            <div class="infos">
-                                <h3>La note enchantée</h3>
-                                <p>Charonne</p>
-                                <i class="fas fa-heart"></i>
+                            <div class="card">
+                                <a class="link" href="pages/la-delice-des-sens.html">
+                                    <img class="img" src="images/restaurants/carte4.jpg" alt="quatrième carte">
+                                    <div class="infos">
+                                        <h3>Le délice des sens</h3>
+                                        <p>Folie-Méricourt</p>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a class="link" href="pages/a-la-francaise.html">
-                            <img class="img" src="images/restaurants/carte3.jpg" alt="troisième carte">
-                            <div class="infos">
-                                <h3>À la française</h3>
-                                <p>Cité Rouge</p>
-                                <i class="fas fa-heart"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a class="link" href="pages/la-delice-des-sens.html">
-                            <img class="img" src="images/restaurants/carte4.jpg" alt="quatrième carte">
-                            <div class="infos">
-                                <h3>Le délice des sens</h3>
-                                <p>Folie-Méricourt</p>
-                                <i class="fas fa-heart"></i>
-                            </div>
-                        </a>
-                    </div>
+                        </div>
                 </div>
 
             </main>
