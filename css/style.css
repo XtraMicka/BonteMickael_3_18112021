@@ -23,26 +23,29 @@ footer h1 {
 }
 /* Loader */
 .loader {
-    display: flex;
     position: fixed;
+    display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    background-color: white;
-    z-index: 1;
+    background-color: #fff;
+    z-index: 10000;
 }
 .loader .letters {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Shrikhand, sans-serif;
-    font-size: 75px;
+    font-size: 35px;
 }
 .letters span {
+    cursor: default;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
-    margin: 0 5px 0 5px;
+    height: 100%;
+    margin: 25% 5px 50% 5px;
 }
 
 /* Header */

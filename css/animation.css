@@ -17,20 +17,17 @@
 }
 @keyframes load {
     0% {
-        display: flex; 
-        opacity: 1
+        opacity: 1;
     }
     80% {
-        display: flex;
         opacity: 100%;
     }
     90% {
-        display: flex; 
-        opacity: 50%
+        opacity: 50%;
     }
     100% {
-        display: none; 
         opacity: 0;
+        z-index: -1;
     }
 }
 @keyframes L1 {
@@ -121,36 +118,37 @@
         transform: scale(1);
     }
 }
-/* * * * * * * * * * * * * */
-/* Lettres du loading */
+
+/* * * * * * * * * * * * * * * * * * * */
+/* Lettres du loading + Loader  */
 .L1 {
-    animation: L1 1.7s ease-in-out;
+    animation: L1 1.2s ease-in-out;
 }
 .L2 {
-    animation: L2 1.7s ease-in-out;
+    animation: L2 1.2s ease-in-out;
 }
 .L3 {
-    animation: L3 1.7s ease-in-out;
+    animation: L3 1.2s ease-in-out;
 }
 .L4 {
-    animation: L4 1.7s ease-in-out;
+    animation: L4 1.2s ease-in-out;
 }
 .L5 {
-    animation: L5 1.7s ease-in-out;
+    animation: L5 1.2s ease-in-out;
 }
 .L6 {
-    animation: L6 1.7s ease-in-out;
+    animation: L6 1.2s ease-in-out;
 }
 .L7 {
-    animation: L7 1.7s ease-in-out;
+    animation: L7 1.2s ease-in-out;
 }
 .L8 {
-    animation: L8 1.7s ease-in-out;
+    animation: L8 1.2s ease-in-out;
+}
+.loader {
+    animation: load 1.2s forwards;
 }
 
-.loader {
-    animation: load 1.7s forwards;
-}
 /* * * * * * * * * * * * * * * */
 /* Appartion des menus */
 .m1 {
