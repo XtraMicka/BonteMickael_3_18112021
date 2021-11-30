@@ -46,6 +46,8 @@ footer h1 {
     justify-content: center;
     height: 100%;
     margin: 25% 5px 50% 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
 }
 
 /* Header */
